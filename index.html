@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2 - Jogo da Memória</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <!-- CORPO PRINCIPAL -->
+    <div id="container">
+        <!-- DIV BOAS VINDAS -->
+        <div id="home">
+            <!-- TEXTO DE BOAS VINDAS -->
+            <h1>Bem Vindo</h1>
+            <!-- BOTÃO DE INICIAR -->
+            <button id="start-btn">Iniciar</button>
+        </div>
+        <!-- TELA DO JOGO -->
+        <div id="jogo">
+            <!-- DIV TITULO JOGO -->
+            <div id="header">
+                <h1>Jogo da Memória</h1>
+            </div>
+            <!-- DIV JOGO -->
+            <div id="game"></div>
+            <!-- DIV RODAPÉ -->
+            <div id="footer">
+                <!-- TEMPO DE JOGO -->
+                <p>Tempo<span id="time">00:00</span></p>
+                <!-- QUANTIDADE DE ERROS -->
+                <p>Erros <span id="erro">0</span></p>
+                <!-- REINICIAR O JOGO -->
+                <button id="restart-btn">Reiniciar</button>
+            </div>
+            <audio id="musica-vitoria" src="./assets/audio/vitoria.mp3"></audio>
+        </div>
+
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
